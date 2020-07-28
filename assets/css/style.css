@@ -1,0 +1,112 @@
+/****************************************
+* BASE
+****************************************/
+
+body a {
+    color: #0277d4;
+}
+body a:hover {
+    text-decoration: none;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+}
+img {
+    max-width: 100%;
+}
+.page-container {
+    margin-top: 60px;
+}
+.container {
+    width: 80%;
+    max-width: 1250px;
+}
+
+/****************************************
+* UTILITIES
+****************************************/
+
+.link-arrow {
+    position: relative;
+}
+.link-arrow::after {
+    content: "\f054";
+    font-family: FontAwesome;
+    position: absolute;
+    top: 0;
+    right: -20px;
+}
+.title-red {
+    color: #dc1431;
+    font-size: 1.50rem;
+}
+
+/****************************************
+* HEADER
+****************************************/
+
+.navbar {
+    padding: .5rem 2rem;
+}
+.navbar-nav {
+    width: 100%;
+    justify-content: flex-end;
+}
+.navbar-brand img {
+    max-width: 290px;
+}
+.current-menu-item {
+    color: rgba(0,0,0,.9);
+}
+
+/****************************************
+* HOME
+****************************************/
+
+.login-container {
+    color: #fff;
+    background: #dc1431;
+    padding: 20px;
+}
+.login-container a {
+    color: #fff;
+}
+.login-container .login-btn {
+    width: 100%;
+    color: #fff;
+    background: transparent;
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+}
+.login-container input {
+    margin: 0 0 10px 0;
+}
+.banner-row {
+    background: #f2f2f2;
+    padding: 40px 20px;
+}
+
+/****************************************
+* FOOTER
+****************************************/
+
+#footer {
+    margin-top: 90px;
+}
+#footer {
+    color: #757575;
+    font-size: 14px;
+}
+#footer .container {
+    padding: 20px 0;
+}
+
+@media screen and (max-width: 980px) {
+    .container {
+        width: 90%;
+    }
+}

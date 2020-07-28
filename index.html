@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Existence Bank</title>
+  </head>
+  <body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html"><img src="assets/images/logo.jpg"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">My Account</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="checking-savings.html">Checking + Savings</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="statements.html">Statements</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="bill-pay.html">Bill Pay</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="transfers.html">Transfers</a>
+          </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="page-container">
+        <div class="container">
+
+          <div class="row">
+            <div class="col-md-4 login-container align-self-start">
+              <input type="text" value="John Doe">
+              <input type="password" value="password">
+              <a class="login-btn" href="checking-savings.html">Sign In</a>
+              <p><a href="#">Forgot ID/Passcode?</a></p>
+              <a href="#">Security & Help</a>
+              <div class="open-account"><a href="#">Open an Account</a></div>
+            </div>
+            <div class="col-md-8">
+              <img src="assets/images/hero.png">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-4 align-self-start">
+              <h3>Stay on top of direct deposits with alerts</h3>
+              <p>We'll notify you whenever money is deposited into your account</p>
+              <a class="link-arrow" href="#">Set up alerts</a>
+            </div>
+            <div class="col-md-8">
+              <img src="assets/images/khan.png">
+            </div>
+          </div>
+
+          <div class="row mt-5 banner-row">
+            <div class="col-md-3">
+              <h3 class="title-red">Need to send money fast?</h3>
+              <p>We can help</p>
+              <a class="link-arrow" href="#">Get started</a>
+            </div>
+            <div class="col-md-3">
+              <h3 class="title-red">Get checking with the right features</h3>
+              <p>Including a $0 liability guarantee that helps cover you from fradulant transactions</p>
+              <a class="link-arrow" href="#">Get started</a>
+            </div>
+            <div class="col-md-3">
+              <h3 class="title-red">Deals all day, every day</h3>
+              <p>Get up to 10% cash back</p>
+              <a class="link-arrow" href="#">Get started</a>
+            </div>
+            <div class="col-md-3 align-self-start">
+              <h3 class="title-red">ACME Sercurities</h3>
+              <p>We have the tools, the people and the insights to help you create a personalized strategy</p>
+              <a class="link-arrow" href="#">Get started</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <footer id="footer">
+        <div class="container">
+          &copy; <span id="footerDate"></span> | Existence bank. All rights reserved.
+        </div>
+      </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script>
+      let d = new Date().getFullYear();
+      document.getElementById("footerDate").innerHTML = d;
+    </script>
+  </body>
+</html>

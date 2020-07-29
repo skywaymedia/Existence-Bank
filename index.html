@@ -11,89 +11,67 @@
   <body>
     
     <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="index.html"><img src="assets/images/logo.jpg"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">My Account</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="checking-savings.html">Checking + Savings</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="statements.html">Statements</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="bill-pay.html">Bill Pay</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="transfers.html">Transfers</a>
-          </li>
-          </ul>
+      <a class="navbar-brand" href="index.html"><img src="assets/images/logo.jpg"></a>
+    </nav>
+    <div class="page-container">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-4 login-container align-self-start">
+            <input type="text" value="John Doe">
+            <input type="password" value="password">
+            <a class="login-btn" href="checking-savings.html">Sign In</a>
+            <p><a href="#">Forgot ID/Passcode?</a></p>
+            <a href="#">Security & Help</a>
+            <div class="open-account"><a href="#">Open an Account</a></div>
+          </div>
+          <div class="col-md-8">
+            <img src="assets/images/hero.png">
+          </div>
         </div>
-      </nav>
-      <div class="page-container">
-        <div class="container">
 
-          <div class="row">
-            <div class="col-md-4 login-container align-self-start">
-              <input type="text" value="John Doe">
-              <input type="password" value="password">
-              <a class="login-btn" href="checking-savings.html">Sign In</a>
-              <p><a href="#">Forgot ID/Passcode?</a></p>
-              <a href="#">Security & Help</a>
-              <div class="open-account"><a href="#">Open an Account</a></div>
-            </div>
-            <div class="col-md-8">
-              <img src="assets/images/hero.png">
-            </div>
+        <div class="row">
+          <div class="col-md-4 align-self-start">
+            <h3>Stay on top of direct deposits with alerts</h3>
+            <p>We'll notify you whenever money is deposited into your account</p>
+            <a class="link-arrow" href="#">Set up alerts</a>
           </div>
-
-          <div class="row">
-            <div class="col-md-4 align-self-start">
-              <h3>Stay on top of direct deposits with alerts</h3>
-              <p>We'll notify you whenever money is deposited into your account</p>
-              <a class="link-arrow" href="#">Set up alerts</a>
-            </div>
-            <div class="col-md-8">
-              <img src="assets/images/khan.png">
-            </div>
+          <div class="col-md-8">
+            <img src="assets/images/khan.png">
           </div>
-
-          <div class="row mt-5 banner-row">
-            <div class="col-md-3">
-              <h3 class="title-red">Need to send money fast?</h3>
-              <p>We can help</p>
-              <a class="link-arrow" href="#">Get started</a>
-            </div>
-            <div class="col-md-3">
-              <h3 class="title-red">Get checking with the right features</h3>
-              <p>Including a $0 liability guarantee that helps cover you from fradulant transactions</p>
-              <a class="link-arrow" href="#">Get started</a>
-            </div>
-            <div class="col-md-3">
-              <h3 class="title-red">Deals all day, every day</h3>
-              <p>Get up to 10% cash back</p>
-              <a class="link-arrow" href="#">Get started</a>
-            </div>
-            <div class="col-md-3 align-self-start">
-              <h3 class="title-red">ACME Sercurities</h3>
-              <p>We have the tools, the people and the insights to help you create a personalized strategy</p>
-              <a class="link-arrow" href="#">Get started</a>
-            </div>
-          </div>
-
         </div>
+
+        <div class="row mt-5 banner-row">
+          <div class="col-md-3">
+            <h3 class="title-red">Need to send money fast?</h3>
+            <p>We can help</p>
+            <a class="link-arrow" href="#">Get started</a>
+          </div>
+          <div class="col-md-3">
+            <h3 class="title-red">Get checking with the right features</h3>
+            <p>Including a $0 liability guarantee that helps cover you from fradulant transactions</p>
+            <a class="link-arrow" href="#">Get started</a>
+          </div>
+          <div class="col-md-3">
+            <h3 class="title-red">Deals all day, every day</h3>
+            <p>Get up to 10% cash back</p>
+            <a class="link-arrow" href="#">Get started</a>
+          </div>
+          <div class="col-md-3 align-self-start">
+            <h3 class="title-red">ACME Sercurities</h3>
+            <p>We have the tools, the people and the insights to help you create a personalized strategy</p>
+            <a class="link-arrow" href="#">Get started</a>
+          </div>
+        </div>
+
       </div>
+    </div>
 
-      <footer id="footer">
-        <div class="container">
-          &copy; <span id="footerDate"></span> | Existence bank. All rights reserved.
-        </div>
-      </footer>
+    <footer id="footer">
+      <div class="container">
+        &copy; <span id="footerDate"></span> | Existence bank. All rights reserved.
+      </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
